@@ -1,0 +1,80 @@
+/* ─── Design Tokens — Light Mode ─────────────────────────────── */
+:root {
+  /* Brand */
+  --clr-primary:       #10b981;
+  --clr-primary-hover: #059669;
+  --clr-primary-light: #d1fae5;
+  --clr-primary-text:  #065f46;
+
+  /* Semantic */
+  --clr-success:       #10b981;
+  --clr-success-light: #d1fae5;
+  --clr-success-text:  #065f46;
+  --clr-warning:       #f59e0b;
+  --clr-warning-light: #fef3c7;
+  --clr-warning-text:  #92400e;
+  --clr-danger:        #ef4444;
+  --clr-danger-light:  #fee2e2;
+  --clr-danger-text:   #991b1b;
+  --clr-info:          #3b82f6;
+  --clr-info-light:    #dbeafe;
+  --clr-info-text:     #1e40af;
+
+  /* Surfaces */
+  --bg-app:      #f1f5f9;
+  --bg-card:     #ffffff;
+  --bg-input:    #f8fafc;
+  --bg-muted:    #f1f5f9;
+  --bg-overlay:  rgba(15,23,42,0.55);
+
+  /* Text */
+  --text-primary:   #0f172a;
+  --text-secondary: #475569;
+  --text-muted:     #94a3b8;
+  --text-on-dark:   #ffffff;
+
+  /* Border */
+  --border:       #e2e8f0;
+  --border-focus: #10b981;
+
+  /* Header / Nav */
+  --header-bg:     #ffffff;
+  --header-border: #e2e8f0;
+  --nav-bg:        #ffffff;
+  --nav-border:    #e2e8f0;
+  --nav-active-bg: #d1fae5;
+  --nav-active-clr:#065f46;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px rgba(0,0,0,.05);
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.04);
+  --shadow-md: 0 4px 6px rgba(0,0,0,.07), 0 2px 4px rgba(0,0,0,.05);
+  --shadow-lg: 0 10px 15px rgba(0,0,0,.08), 0 4px 6px rgba(0,0,0,.05);
+
+  /* Radius */
+  --r-sm:  6px;
+  --r-md:  10px;
+  --r-lg:  14px;
+  --r-xl:  20px;
+  --r-full: 9999px;
+
+  /* Spacing scale */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-8: 32px;
+  --sp-10:40px;
+  --sp-12:48px;
+
+  /* Typography */
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+
+  /* Transitions */
+  --transition: 150ms ease;
+  --transition-md: 200ms ease;
+}
+
