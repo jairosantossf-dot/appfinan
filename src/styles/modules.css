@@ -188,7 +188,7 @@
   text-align: center;
   color: var(--text-secondary);
   font-size: .95rem;
-  margin-top: calc(-1 * var(--sp-4));
+  margin-top: var(--sp-2);
 }
 .onboarding-body { display: flex; flex-direction: column; gap: var(--sp-4); }
 .onboarding-footer {
